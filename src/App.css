@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.bbb {
+  margin: 5vh auto 0vw auto;
+  line-height: 33px;
+  font-size: calc(16spx + 2vmin);
+  font-family: sans-serif;
+  color: #fff;
+  background-color: #282c34;
+  border-radius: 25px;
+  width: 70vw;
+}
+#contactform{
+	padding: 10vh;
+	height: 80vh;
+	position: relative;
+	font-size: calc(16spx + 2vmin);
+  font-family: sans-serif;
+  color: #282c34;
+  background-color: #fff;
+}
+.forma{
+	padding-top: 10vh;
+	margin: 0 auto 0 auto;
+  
+  width: 70%;
+}
+#contactform textarea,
+	input[type=text],
+	input[type=email]{
+	width: 100%;
+	border: none;
+  border-bottom: 2px solid #282c34;
+}
+#contactform input[type=submit]{
+	background-color: #282c34;
+  border: none;
+  color: #fff;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  float: right;
+  clear: both;
+}
+#headmy {
+  margin-top: 10vh;
+  color: #fff;
+  
+}
+#headmy p, #contactform p{
+	margin: 0 25vw 0 25vw;
+  text-align: center;
+  font-size: calc(28px + 2vmin);
+  color: #c9aa5d;
+}
+#contactform p{
+	margin: 0 auto 0 auto;
+}
+#headmy img {
+  filter: invert(.5);
+  display: block;
+  margin: 20px auto 10px auto;
+}
+#freepik {
+  font-size: calc(2px + 2vmin);
+}
+.bck {
+  margin-top: 0vh;
+  object-fit: cover;
+  width: 99vw;
+  height: 100vh;
+  position: relative;
+  z-index: 0;
+}
+.bck-overlay {
+  position: absolute;
+  margin: auto;
+  width: 50%;
+  z-index: 1;
+  line-height: 40px;
+  font-size: calc(20px + 2vmin);
+  font-family: sans-serif;
+  color: #fff;
+}
+.video-my {
+  object-fit: cover;
+  width: 99vw;
+  height: 100vh;
+  position: relative;
+  z-index: 0;
+}
+.video-overlay {
+  position: absolute;
+  margin: auto;
+  width: 50%;
+  line-height: 40px;
+  font-size: calc(20px + 2vmin);
+  font-family: sans-serif;
+  color: #fff;
+  
+  z-index: 1
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
