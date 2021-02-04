@@ -4,6 +4,7 @@ import Header from './Components1';
 import Forms from './Components2';
 import video from './video1.mp4';
 import imgback from './back1.jpg';
+import videoposter from './video1.png';
 
 function App() {
   
@@ -11,7 +12,7 @@ function App() {
     <div>
     <div className="App">
       <header className="App-header">
-      	<video className="video-my" autoPlay muted loop><source src={video} type="video/mp4" /></video>
+      	<video className="video-my" autoPlay muted loop><source src={video} type="video/mp4" poster={videoposter}/></video>
         <p className="video-overlay">
           Hello there. <br />My name is Lukasz and this is my sample <br />react single page app using <br />video as background.
         </p>
